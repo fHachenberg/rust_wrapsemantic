@@ -1,0 +1,13 @@
+[package]
+
+name = "Wrap Semantic in Rust"
+version = "1.0.0"
+authors = [
+    "Fabian Hachenberg <fabian.hachenberg@gmx.de>"
+]
+
+[[bin]]
+name = "test"
+
+[dependencies]
+libc = "*"
